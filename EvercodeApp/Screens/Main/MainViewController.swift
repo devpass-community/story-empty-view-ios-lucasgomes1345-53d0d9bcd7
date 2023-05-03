@@ -16,6 +16,5 @@ final class MainViewController: UIViewController {
 
     override func loadView() {
         self.view = mainView
-        mainView.emptyView.updateView(with: EmptyViewConfiguration(title: "No data found"))
     }
 }

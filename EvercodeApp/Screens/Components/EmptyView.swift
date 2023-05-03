@@ -37,6 +37,7 @@ class EmptyView: UIView {
 extension EmptyView {
     func setupViews() {
         backgroundColor = .systemBackground
+        updateView(with: EmptyViewConfiguration(title: "No data found"))
         configureSubviews()
         configureSubviewsConstraints()
     }
